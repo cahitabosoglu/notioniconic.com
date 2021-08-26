@@ -1,104 +1,100 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact</title>
-    <link rel="stylesheet" type="text/css" href="headercss.css" />
-    <link rel="stylesheet" type="text/css" href="contact.css" />
-  </head>
-  <body>
-    <div class="content">
-      <div class="logo">
-        <a href="naimle.html">  <img class="logoimg" src="img/logo/SVG/notioniconiclogo.svg"/> </a>
-      </div>
-      
-      <div class="header">
-        <a href="naimle.html">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contact</title>
+  <link rel="stylesheet" type="text/css" href="headercss.css" />
+  <link rel="stylesheet" type="text/css" href="contact.css" />
+</head>
+
+<body>
+  <div class="content">
+    <div class="logo">
+      <a href="naimle.html"> <img class="logoimg" src="img/logo/SVG/notioniconiclogo.svg" /> </a>
+    </div>
+
+    <div class="header">
+      <a href="naimle.html">
         <button class="button" type="button">works</button>
       </a>
-        <a href="team.html">
-           <button class="button" type="button">team</button>
-        </a>
-        <a href="contact.html"
-          ><button class="button" type="button">contact</button>
-        </a>
-      </div>
+      <a href="team.html">
+        <button class="button" type="button">team</button>
+      </a>
+      <a href="contact.html"><button class="button" type="button">contact</button>
+      </a>
     </div>
+  </div>
 
-       
-       <div class="contactgrid">
-      <div class="container1">
-        <h1 id="info@notioniconic.com">info@notioniconic.com</h1>
-        <div class="smicons">
-          <div class="row">
-            <div class="coloumn">
-              <a href="instagram.com">
-                <img class="footericons" src="img/smicon/instagram.svg" />
-              </a>
-               </div>
 
-            <div class="coloumn">
-              <a href="instagram.com">
-                <img class="footericons" src="img/smicon/linkedin.svg" />
-              </a>
-            </div>
+  <div class="contactgrid">
+    <div class="container1">
+      <h1 id="info@notioniconic.com">info@notioniconic.com</h1>
+      <div class="smicons">
+        <div class="row">
+          <div class="coloumn">
+            <a href="instagram.com">
+              <img class="footericons" src="img/smicon/instagram.svg" />
+            </a>
+          </div>
 
-            <div class="coloumn">
-              <a href="instagram.com">
-                <img class="footericons" src="img/smicon/mail.svg" />
-              </a>
-            </div>
+          <div class="coloumn">
+            <a href="instagram.com">
+              <img class="footericons" src="img/smicon/linkedin.svg" />
+            </a>
+          </div>
+
+          <div class="coloumn">
+            <a href="instagram.com">
+              <img class="footericons" src="img/smicon/mail.svg" />
+            </a>
           </div>
         </div>
-        <p>Istanbul 34700 Türkiye</p>
       </div>
-      <div class="container2">
-        <h2 class="h2">
-          Formu doldurun,
-          <br />
-          Çok kolay.
-        </h2>
-       <div class="infolabels"> 
-         <div class="cont21">
-              <!-- <div class="iletisimnedeni"> -->
+      <p>Istanbul 34700 Türkiye</p>
+    </div>
+    <div class="container2">
+      <h2 class="h2">
+        Formu doldurun,
+        <br />
+        Çok kolay.
+      </h2>
+      <div class="infolabels">
+        <div class="cont21">
+          <!-- <div class="iletisimnedeni"> -->
           <label>İletişim nedeniniz</label> <br>
-          <select name="iletişim nedeni"> 
+          <select name="iletişim nedeni">
 
 
-              <option value="tasarım ihtiyacı">proje geliştirmek</option>
+            <option value="tasarım ihtiyacı">proje geliştirmek</option>
             <option value="tasarım ihtiyacı">iş başvurusu</option>
           </select>
+          <form class="myform" action="process.php" method="POST">
+            <div class="form-group">
+              <input type="text" placeholder="Adınız" name="Adınız" />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Soyadınız" name="Soyadınız" />
+            </div>
+            <div class="form-group">
+              <input class="myform" type="email" placeholder="Mailiniz" name="Emailiniz" />
+            </div>
+            <button class="button2" type="button">gönder</button>
         </div>
-        <!-- <form class="myform" action="process.php" method="POST">
-       <div class="form-group">
-                <input type="text" placeholder="Adınız" name="Adınız" />
-              </div>
-        <form class="myform" action="process.php" method="POST">
-          <div class="form-group">
-          <input type="text" placeholder="Soyadınız" name="Soyadınız" />
-        </div>
-       <div class="form-group"> 
-        <input
-          class="myform"
-          type="email"
-          placeholder="Mailiniz"
-          name="Emailiniz"/>
-        </div>
-          <button class="button2" type="button">gönder</button>
-           
-<div class="cont22">  <label>Message</label>
-<textarea name="meesage" id="" cols="30" rows="10"></textarea> </div>
 
+        <div class="cont22"> <label>Message</label>
+          <textarea name="meesage" id="" cols="30" rows="10"></textarea>
+        </div>
 
-   
-   
-        </form> -->
-        
-       </div>
-    
+      </div>
+
     </div>
-    <footer style="padding-bottom: 50px;"><p>Copyright &copy; 2019, Notion Iconic</p></footer>
-  </body>
+  </div>
+  <footer style="padding-bottom: 50px;">
+    <p>Copyright &copy; 2019, Notion Iconic</p>
+  </footer>
+</body>
+
 </html>
