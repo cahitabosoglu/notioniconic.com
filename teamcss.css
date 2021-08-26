@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.teamgrid {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.teamphotos {
+  padding: 0px;
+  margin-right: 20px;
+  object-fit: cover;
+  object-position: center;
+  width: 400px;
+  height: 300px;
+}
+.textinfo {
+  font-family: sans-serif;
+}
+.texthead {
+  font-size: 25pt;
+  font-weight: bold;
+}
+.texttitle {
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.textbody {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.alaz {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.cahit {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.halil {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.yasin {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
