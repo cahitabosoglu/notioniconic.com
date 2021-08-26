@@ -19,7 +19,7 @@ padding-right: 40px;
  
 }
 .contactgrid {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -107,6 +107,7 @@ textarea {
 justify-content: space-evenly;
 flex-wrap: wrap;
 flex-direction: row;
+display: flex;
 }
 
 .preparing {
