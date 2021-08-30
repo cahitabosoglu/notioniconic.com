@@ -1,60 +1,41 @@
 * {
   box-sizing: border-box;
+  margin: none;
+  padding: none;
 }
-
-.teamgrid {
-  margin-top: 70px;
-  margin-left: 50px;
-}
-.teamphotos {
-  padding: 0px;
-  margin-right: 20px;
-  object-fit: cover;
-  object-position: center;
-  width: 400px;
-  height: 300px;
-}
-.textinfo {
+.body {
   font-family: sans-serif;
 }
-.texthead {
-  font-size: 25pt;
-  font-weight: bold;
+.contentteam {
+  max-width: 1100;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
 }
-.texttitle {
-  font-style: italic;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.memberphoto {
+  width: max-content;
 }
-.textbody {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.job {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 20;
+  line-height: 0, 5em;
+  line-height: 1, 5 em;
+}
+.membername {
+  font-family: sans-serif, helvetica, Arial, Helvetica;
+  font-size: 25px;
+  border: none;
+  line-height: 0%;
+}
+.box1 {
 }
 .alaz {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 .cahit {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 .halil {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 .yasin {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }

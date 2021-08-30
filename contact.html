@@ -32,9 +32,10 @@
     </div>
 
     <div class="contactgrid">
-      <div class="container1">
-        <h1 id="info@notioniconic.com">info@notioniconic.com</h1>
-        <div class="smicons">
+      <div class="containers">
+        <div class="container1">
+          <h1 id="info@notioniconic.com">info@notioniconic.com</h1>
+
           <div class="row">
             <div class="coloumn">
               <a href="instagram.com">
@@ -55,23 +56,16 @@
             </div>
           </div>
         </div>
-        <p>Istanbul 34700 Türkiye</p>
-      </div>
-      <div class="container2">
-        <h2 class="h2">
-          Formu doldurun,
-          <br />
-          Çok kolay.
-        </h2>
-        <div class="infolabels">
-          <div class="cont21">
-            <!-- <div class="iletisimnedeni"> -->
-            <label>İletişim nedeniniz</label> <br />
-            <select name="iletişim nedeni">
-              <option value="tasarım ihtiyacı">proje geliştirmek</option>
-              <option value="tasarım ihtiyacı">iş başvurusu</option>
-            </select>
+        <div class="container2">
+          <div class="infolabels">
             <form class="myform" action="process.php" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="İletişim Nedeniniz"
+                  name="İletişim Nedeniniz"
+                />
+              </div>
               <div class="form-group">
                 <input type="text" placeholder="Adınız" name="Adınız" />
               </div>
@@ -80,24 +74,28 @@
               </div>
               <div class="form-group">
                 <input
-                  class="myform"
+                  class="text"
                   type="email"
                   placeholder="Mailiniz"
                   name="Emailiniz"
                 />
               </div>
-              <button class="button2" type="button">gönder</button>
             </form>
           </div>
-
-          <div class="cont22">
-            <label>Message</label>
-            <textarea name="meesage" id="" cols="30" rows="10"></textarea>
-          </div>
         </div>
+        <div class="container3">
+          <textarea
+            name="message"
+            placeholder="Mesajınız"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button class="button2" type="button">gönder</button>
       </div>
     </div>
-    <footer style="padding-bottom: 50px">
+    <footer style="padding-bottom: 10px; padding-top: 70px">
       <p>Copyright &copy; 2019, Notion Iconic</p>
     </footer>
   </body>
