@@ -7,25 +7,26 @@
   font-family: sans-serif;
 }
 .contentteam {
-  max-width: 1100;
+  max-width: 500;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 30px;
 }
+
 .memberphoto {
   width: max-content;
 }
 .job {
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 20;
+  font-size: 17px;
   line-height: 0, 5em;
   line-height: 1, 5 em;
 }
 .membername {
   font-family: sans-serif, helvetica, Arial, Helvetica;
-  font-size: 25px;
+  font-size: 20px;
   border: none;
   line-height: 0%;
 }
